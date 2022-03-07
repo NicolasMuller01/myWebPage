@@ -1,0 +1,127 @@
+.aboutMe_contenedor{
+    display: block;
+}
+
+.aboutMe_welcome{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin:0 auto;
+    justify-content: center;
+    padding:200px 0;
+}
+
+.aboutMe_welcome_contenedor-texto{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+        h1{
+            font-weight: 700;
+            font-size: 4.06em;
+        }
+}
+
+.software{
+    background-color: #e54b4b;
+}
+.humans{
+    color: #e54b4b;
+}
+
+.aboutMe_welcome_contenedor-img{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    img{
+        height: 23em;
+        width: 25em;
+    }
+}
+
+
+@media (max-width:500px){
+    body{
+        overflow: hidden;
+        font-size: 12px;
+    }
+    .aboutMe_welcome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin:0 auto;
+        align-items: center;
+        padding:100px 0;
+    }
+    .aboutMe_welcome_contenedor-img{
+        font-size: 8px;
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 501px) { 
+    body{
+        overflow: hidden;
+        font-size: 16px;
+    }
+    .aboutMe_welcome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin:0 auto;
+        align-items: center;
+        padding:100px 0;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 791px) {  
+    body{
+        overflow: hidden;
+        font-size: 16px;
+    }
+    .aboutMe_welcome{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin:0 auto;
+        justify-content: center;
+        padding:200px 0;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .aboutMe_welcome{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin:0 auto;
+        justify-content: center;
+        padding:200px 0;
+    }
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .aboutMe_welcome{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin:0 auto;
+        justify-content: center;
+        padding:200px 0;
+    }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    .aboutMe_welcome{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        margin:0 auto;
+        justify-content: center;
+        padding:200px 0;
+    }
+  }
