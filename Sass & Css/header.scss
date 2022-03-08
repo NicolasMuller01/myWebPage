@@ -19,9 +19,8 @@ header{
     margin:0 auto;  
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     font-weight: 600;
-    z-index: 10;
+    background-color: #ffffff;
 }
-
 nav{
     margin: 0 auto;
     width: 65%;
@@ -64,7 +63,7 @@ nav{
                     -moz-transition: 0.4s;
                     -ms-transition: 0.4s;
                     -o-transition: 0.4s;
-}
+                }
             }
             a:hover{
                 color:#e54b4b;
@@ -85,16 +84,14 @@ nav{
 /* medias queryes */
 
 @media (max-width:790px) { 
-    body{
-        overflow: hidden;
-    }
-
     nav{
-        margin: 0 auto;
-        width: 98%;
+        overflow: hidden;
+        margin:0 auto;
+        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        z-index: 10;
     }
 
     .header_nav_contenedor-mobile{
@@ -106,7 +103,6 @@ nav{
         
     .header_nav_div-links_contenedor{
         width: 100%;
-        height: 100%;
         display: none;
         flex-direction: row-reverse;
         justify-content: center;
@@ -115,6 +111,7 @@ nav{
                 align-items: center;  
                 flex-direction: column;
                 width: 100%;
+                height: 100vh;
                 a{
                     padding: 60px;
                     width: 100%;
@@ -129,6 +126,8 @@ nav{
     .header_nav_div-links_contenedor.active{
         display:flex;
         transition: 0.2s;
+        position: relative;
+        background-color: #ffffff;
     }
     
     .header_nav_div_burguermenu_contenedor{
@@ -146,7 +145,7 @@ nav{
 
 @media (min-width: 791px) { 
     nav{
-        margin: 0 auto;
+        margin:0 auto;
         width: 90%;
         display: flex;
         flex-direction: row;
@@ -168,7 +167,7 @@ nav{
 
 @media (min-width: 1200px) { 
     nav{
-        margin: 0 auto;
+        margin:0 auto;
         width: 70%;
         display: flex;
         flex-direction: row;
@@ -179,8 +178,8 @@ nav{
 
 @media (min-width: 1400px) { 
     nav{
-        margin: 0 auto;
-        width: 65%;
+        margin:0 auto;
+        width: 60%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
