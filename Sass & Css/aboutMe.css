@@ -22,7 +22,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 200px 0;
+  padding: 150px 0px 100px 0px;
 }
 
 .aboutMe_welcome_contenedor-texto {
@@ -68,7 +68,7 @@ html {
 
 .aboutMe_down-scroll-cointeiner {
   height: auto;
-  margin-bottom: 135px;
+  margin-bottom: 230px;
 }
 
 .aboutMe_down-scroll-cointeiner a div {
@@ -153,7 +153,7 @@ html {
   width: 100%;
   background-image: url(../Images/backgorundRobots.png);
   background-size: cover;
-  padding: 200px 0;
+  padding: 210px 0;
 }
 
 .aboutMe_informacion-contenedor {
@@ -367,7 +367,7 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 150px 0;
+    padding: 50px 0;
   }
   .aboutMe_informacion-contenedor {
     display: -webkit-box;
@@ -411,7 +411,7 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 150px 0;
+    padding: 50px 0;
   }
   .aboutMe_informacion-contenedor {
     display: -webkit-box;
@@ -439,7 +439,7 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 150px 0;
+    padding: 50px 0;
   }
   .aboutMe_informacion-contenedor {
     display: -webkit-box;
@@ -470,7 +470,7 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 100px 0;
+    padding: 50px 0;
   }
   .aboutMe_informacion-contenedor {
     display: -webkit-box;
