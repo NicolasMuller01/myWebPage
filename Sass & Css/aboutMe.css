@@ -68,7 +68,7 @@ html {
 
 .aboutMe_down-scroll-cointeiner {
   height: auto;
-  margin-bottom: 230px;
+  margin-bottom: 240px;
 }
 
 .aboutMe_down-scroll-cointeiner a div {
@@ -77,12 +77,12 @@ html {
   border: 2px solid black;
   position: relative;
   margin: 0 auto;
+  cursor: pointer;
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
-  cursor: pointer;
 }
 
 .scroll-down::before,
@@ -228,11 +228,6 @@ html {
   background-color: #e54b4b;
   cursor: pointer;
   text-decoration: none;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

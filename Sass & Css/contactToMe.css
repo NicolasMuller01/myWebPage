@@ -1,1 +1,295 @@
-/* No CSS *//*# sourceMappingURL=contactToMe.css.map */
+body {
+  background-color: #1e1e24;
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+}
+
+.contactToMe-background {
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactToMe-contenedor-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0;
+}
+
+.contactToMe-contenedor-form input {
+  display: block;
+  width: 31.25em;
+  height: 3.125em;
+  margin-top: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  outline: none;
+  background-color: #444140;
+}
+
+.contactToMe-contenedor-form input:focus {
+  outline: 1px solid #e54b4b;
+}
+
+.contactToMe-contenedor-form textarea {
+  display: block;
+  resize: none;
+  width: 31.375em;
+  height: 31.25em;
+  margin-top: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  outline: none;
+  background-color: #444140;
+}
+
+.contactToMe-contenedor-form textarea:focus {
+  outline: 1px solid #e54b4b;
+}
+
+.contactToMe-contenedor-form ::-webkit-input-placeholder {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #b4b4b4;
+}
+
+.contactToMe-contenedor-form :-ms-input-placeholder {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #b4b4b4;
+}
+
+.contactToMe-contenedor-form ::-ms-input-placeholder {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #b4b4b4;
+}
+
+.contactToMe-contenedor-form ::placeholder {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #b4b4b4;
+}
+
+.contactToMe-contenedor-form button {
+  display: block;
+  margin-top: 10px;
+  width: 31.875em;
+  height: 3.125em;
+  color: white;
+  font-weight: 600;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  outline: none;
+  background-color: #e54b4b;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contactToMe-contenedor-form button:hover {
+  -webkit-box-shadow: rgba(255, 0, 0, 0.781) 0px 5px 15px;
+          box-shadow: rgba(255, 0, 0, 0.781) 0px 5px 15px;
+}
+
+.contactToMe-contenedor-contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+}
+
+.contenedor-redes svg {
+  display: inline-block;
+  color: #ffff;
+  width: 3.125em;
+  height: 3.125em;
+  margin-top: 20px;
+}
+
+.contenedor-redes p {
+  color: #ffff;
+  display: block;
+  margin-top: 30px;
+}
+
+.contenedor-redes svg:hover {
+  color: #e54b4b;
+}
+
+.ubication {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ubication2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedor-imagen {
+  width: auto;
+}
+
+.contenedor-imagen img {
+  width: 31.25em;
+  height: 31.25em;
+}
+
+@media (min-width: 50px) {
+  .contactToMe-background {
+    font-size: 6px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .contactToMe-contenedor-contacto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  input,
+  textarea,
+  button {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 320px) {
+  .contactToMe-background {
+    font-size: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .contactToMe-contenedor-contacto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  input,
+  textarea,
+  button {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .contactToMe-background {
+    font-size: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+  }
+  .contactToMe-contenedor-contacto {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  input,
+  textarea,
+  button {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactToMe-background {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contactToMe-background {
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactToMe-contenedor-contacto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contactToMe-background {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contactToMe-background {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=contactToMe.css.map */
