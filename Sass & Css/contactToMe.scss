@@ -86,12 +86,12 @@ body{
         color: #ffff;
         width: 3.125em;
         height: 3.125em;
-        margin-top: 20px;
+        margin-top: 1.25em;
     }
     p{
         color: #ffff;
         display:block;
-        margin-top: 30px;
+        margin-top: 2.1875em;
     }
     svg:hover{
         color:#e54b4b;
@@ -100,12 +100,23 @@ body{
 
 .ubication{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .ubication2{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    p{
+        padding-left: 0.3em;
+    }
+}
+
+.ubication3{
+    display: flex;
+    justify-content: flex-start;
+    p{
+        padding-left: 0.5em;
+    }
 }
 
 .contenedor-imagen{

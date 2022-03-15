@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=projects.css.map */
+body {
+  background-image: url(../Images/backgroundProjects.png);
+  background-attachment: fixed;
+  background-position: top;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.contenedor-background {
+  width: 60%;
+  margin: 0 auto;
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.uk-position-relative {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.uk-slideshow-items {
+  width: 100%;
+}
+
+#arrow {
+  color: black;
+}
+
+.p-title {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 499px) {
+  .contenedor-background {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+  .contenedor-background {
+    width: 90%;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .contenedor-background {
+    width: 70%;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1001px) {
+  .contenedor-background {
+    width: 50%;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=projects.css.map */
