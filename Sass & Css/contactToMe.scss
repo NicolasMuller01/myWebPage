@@ -27,9 +27,11 @@ body{
         border: none;
         outline: none;
         background-color: #444140;
+        color: white;
     }
     input:focus{
         outline:1px solid #e54b4b;
+        color: white;
     }
     textarea{
         display: block;
@@ -41,9 +43,11 @@ body{
         border: none;
         outline: none;
         background-color: #444140;
+        color: white;
     }
     textarea:focus{
         outline:1px solid #e54b4b;
+        color: white;
     }
     ::placeholder{
         font-size: 1.5em;

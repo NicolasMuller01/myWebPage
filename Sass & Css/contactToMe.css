@@ -43,10 +43,12 @@ body {
   border: none;
   outline: none;
   background-color: #444140;
+  color: white;
 }
 
 .contactToMe-contenedor-form input:focus {
   outline: 1px solid #e54b4b;
+  color: white;
 }
 
 .contactToMe-contenedor-form textarea {
@@ -60,10 +62,12 @@ body {
   border: none;
   outline: none;
   background-color: #444140;
+  color: white;
 }
 
 .contactToMe-contenedor-form textarea:focus {
   outline: 1px solid #e54b4b;
+  color: white;
 }
 
 .contactToMe-contenedor-form ::-webkit-input-placeholder {
