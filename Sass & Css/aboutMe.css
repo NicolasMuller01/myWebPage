@@ -1,3 +1,4 @@
+@import url("./header.css");
 html {
   scroll-behavior: smooth;
 }
@@ -153,7 +154,7 @@ html {
   width: 100%;
   background-image: url(../Images/backgorundRobots.png);
   background-size: cover;
-  padding: 210px 0;
+  padding: 50px 0;
 }
 
 .aboutMe_informacion-contenedor {
@@ -163,6 +164,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  min-height: 90vh;
 }
 
 .aboutMe_image-contenedor {
@@ -254,6 +256,69 @@ html {
           box-shadow: rgba(255, 0, 0, 0.781) 0px 5px 15px;
 }
 
+.aboutMe_skills-contenedor-size {
+  width: 60%;
+  margin: 0 auto;
+  min-height: 90vh;
+}
+
+.aboutMe_skills-contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutMe_skills-contenedor span {
+  width: 100%;
+  margin: 100px 0;
+  background-color: #e54b4b;
+}
+
+.aboutMe_skills-contenedor span h3 {
+  font-size: 5em;
+  margin: 0;
+  color: white;
+}
+
+.aboutMe_skills-contenedor svg {
+  height: 6.25em;
+  width: 6.25rem;
+  color: white;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+
+.aboutMe_skills-contenedor svg:hover {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+
+.aboutMe_skills-contenedor-iconos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 10px;
+}
+
 @media (max-width: 500px) {
   body {
     overflow: scroll;
@@ -299,6 +364,19 @@ html {
             align-items: center;
     margin: 0 auto;
   }
+  .aboutMe_skills-contenedor-size {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 90vh;
+  }
+  .aboutMe_skills-contenedor .aboutMe_skills-contenedor-iconos {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%;
+  }
+  .aboutMe_skills-contenedor .aboutMe_skills-contenedor-iconos svg {
+    display: block;
+  }
 }
 
 @media (min-width: 501px) {
@@ -343,6 +421,11 @@ html {
             align-items: center;
     margin: 0 auto;
   }
+  .aboutMe_skills-contenedor-size {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 90vh;
+  }
 }
 
 @media (min-width: 791px) {
@@ -386,6 +469,11 @@ html {
             align-items: center;
     margin: 0 auto;
   }
+  .aboutMe_skills-contenedor-size {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 90vh;
+  }
 }
 
 @media (min-width: 992px) {
@@ -417,6 +505,11 @@ html {
         -ms-flex-align: center;
             align-items: center;
     margin: 0 auto;
+  }
+  .aboutMe_skills-contenedor-size {
+    width: 70%;
+    margin: 0 auto;
+    min-height: 90vh;
   }
 }
 
@@ -451,6 +544,7 @@ html {
 @media (min-width: 1400px) {
   body {
     font-size: 20px;
+    min-width: 1400px;
   }
   .aboutMe_welcome {
     display: -webkit-box;

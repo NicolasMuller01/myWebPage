@@ -1,6 +1,9 @@
+@import url('./header.css');
+
 html{
     scroll-behavior: smooth;
 }
+
 .aboutMe_contenedor{
     display: block;
     width: auto;
@@ -109,12 +112,13 @@ html{
     width: 100%;
     background-image: url(../Images/backgorundRobots.png);
     background-size: cover;
-    padding:210px 0;
+    padding:50px 0;
 }
 
 .aboutMe_informacion-contenedor{
     display: flex;
     justify-content: center;
+    min-height: 90vh;
     }
 
 .aboutMe_image-contenedor{
@@ -175,6 +179,7 @@ html{
         }
         svg{
             width: 20%;
+       
         }
     }
     button:hover{
@@ -183,6 +188,51 @@ html{
   
 }
 
+.aboutMe_skills-contenedor-size{
+    width: 60%;
+    margin: 0 auto;
+    min-height: 90vh;
+}
+.aboutMe_skills-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    span{
+        width: 100%;
+        margin: 100px 0;
+        background-color: #e54b4b;
+        h3{
+            font-size: 5em;
+            margin: 0;
+            color: white;
+        }
+    }
+    svg{
+        height: 6.25em;
+        width: 6.25rem;
+        color: white;
+        transition: 0.5s ease;
+        -webkit-transition: 0.5s ease;
+        -moz-transition: 0.5s ease;
+        -ms-transition: 0.5s ease;
+        -o-transition: 0.5s ease;
+}
+    svg:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    }
+}
+
+.aboutMe_skills-contenedor-iconos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
 
 
 @media (max-width:500px){
@@ -211,7 +261,22 @@ html{
         width: 90%;
         align-items: center;
         margin: 0 auto;
+    }
+    .aboutMe_skills-contenedor-size{
+        width: 90%;
+        margin: 0 auto;
+        min-height: 90vh;
+
+    }
+    .aboutMe_skills-contenedor{
+        .aboutMe_skills-contenedor-iconos{
+            flex-wrap: wrap;
+            height: 100%;
+            svg{
+                display: block;
+            }
         }
+    }
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 501px){ 
@@ -237,7 +302,12 @@ html{
         width: 90%;
         align-items: center;
         margin: 0 auto;
-        }
+    }
+    .aboutMe_skills-contenedor-size{
+        width: 90%;
+        margin: 0 auto;
+        min-height: 90vh;
+    }
  }
 
 // Medium devices (tablets, 768px and up)
@@ -263,7 +333,12 @@ html{
         width: 80%;
         align-items: center;
         margin: 0 auto;
-        }
+    }
+    .aboutMe_skills-contenedor-size{
+        width: 80%;
+        margin: 0 auto;
+        min-height: 90vh;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -285,7 +360,12 @@ html{
         width: 70%;
         align-items: center;
         margin: 0 auto;
-        }
+    }
+    .aboutMe_skills-contenedor-size{
+        width: 70%;
+        margin: 0 auto;
+        min-height: 90vh;
+    }
  }
 
 // X-Large devices (large desktops, 1200px and up)
@@ -310,6 +390,7 @@ html{
 @media (min-width: 1400px) {
     body{
         font-size: 20px;
+        min-width: 1400px;
     }
     .aboutMe_welcome{
         display: flex;
