@@ -290,7 +290,10 @@ html {
   color: white;
 }
 
-.aboutMe_skills-contenedor svg {
+.aboutMe_skills-contenedor div svg {
+  -webkit-box-shadow: 0px 0px 20px -6px black;
+          box-shadow: 0px 0px 20px -6px black;
+  padding: 1.875em;
   height: 6.25em;
   width: 6.25rem;
   color: white;
@@ -301,12 +304,12 @@ html {
   -o-transition: 0.5s ease;
 }
 
-.aboutMe_skills-contenedor svg:hover {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
+.aboutMe_skills-contenedor div svg:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .aboutMe_skills-contenedor-iconos {
@@ -322,6 +325,8 @@ html {
 @media (max-width: 500px) {
   body {
     overflow: scroll;
+  }
+  .aboutMe_contenedor {
     font-size: 12px;
   }
   .aboutMe_welcome {
@@ -374,7 +379,7 @@ html {
         flex-wrap: wrap;
     height: 100%;
   }
-  .aboutMe_skills-contenedor .aboutMe_skills-contenedor-iconos svg {
+  .aboutMe_skills-contenedor .aboutMe_skills-contenedor-iconos div {
     display: block;
   }
 }
@@ -382,6 +387,8 @@ html {
 @media (min-width: 501px) {
   body {
     overflow: scroll;
+  }
+  .aboutMe_contenedor {
     font-size: 16px;
   }
   .aboutMe_welcome {
@@ -425,6 +432,14 @@ html {
     width: 90%;
     margin: 0 auto;
     min-height: 90vh;
+  }
+  .aboutMe_skills-contenedor-iconos {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%;
+  }
+  .aboutMe_skills-contenedor-iconos div {
+    display: block;
   }
 }
 
@@ -470,9 +485,17 @@ html {
     margin: 0 auto;
   }
   .aboutMe_skills-contenedor-size {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     min-height: 90vh;
+  }
+  .aboutMe_skills-contenedor-iconos {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%;
+  }
+  .aboutMe_skills-contenedor-iconos div {
+    display: block;
   }
 }
 
