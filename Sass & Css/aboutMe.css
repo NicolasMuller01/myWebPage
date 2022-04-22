@@ -10,6 +10,10 @@ html {
   z-index: 9;
 }
 
+.aboutMe_contenedor-height {
+  min-height: 100vh;
+}
+
 .aboutMe_welcome {
   display: -webkit-box;
   display: -ms-flexbox;
